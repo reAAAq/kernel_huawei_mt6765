@@ -3194,38 +3194,6 @@
 					fsmgr_flags = "wait,logical,avb";
 					status = "ok";
 				};
-				cust_ext4 {
-					mnt_point = "/cust";
-					dev = "cust";
-					type = "ext4";
-					mnt_flags = "ro";
-					fsmgr_flags = "wait,nofail,logical,avb";
-					status = "ok";
-				};
-				cust_erofs {
-					mnt_point = "/cust";
-					dev = "cust";
-					type = "erofs";
-					mnt_flags = "ro";
-					fsmgr_flags = "wait,nofail,logical,avb";
-					status = "ok";
-				};
-				hw_product_ext4 {
-					mnt_point = "/hw_product";
-					dev = "hw_product";
-					type = "ext4";
-					mnt_flags = "ro";
-					fsmgr_flags = "wait,nofail,logical,avb";
-					status = "ok";
-				};
-				hw_product_erofs {
-					mnt_point = "/hw_product";
-					dev = "hw_product";
-					type = "erofs";
-					mnt_flags = "ro";
-					fsmgr_flags = "wait,nofail,logical,avb";
-					status = "ok";
-				};
 				version_ext4 {
 					mnt_point = "/version";
 					dev = "/dev/block/by-name/version";
