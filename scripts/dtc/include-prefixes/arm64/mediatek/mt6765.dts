@@ -3162,6 +3162,22 @@
 					fsmgr_flags = "wait,logical,avb";
 					status = "ok";
 				};
+				system_ext_ext4 {
+					mnt_point = "/system_ext";
+					dev = "system_ext";
+					type = "ext4";
+					mnt_flags = "ro";
+					fsmgr_flags = "wait,logical,avb";
+					status = "ok";
+				};
+				product_ext4 {
+					mnt_point = "/product";
+					dev = "product";
+					type = "ext4";
+					mnt_flags = "ro";
+					fsmgr_flags = "wait,logical,avb";
+					status = "ok";
+				};
 				vendor_ext4 {
 					mnt_point = "/vendor";
 					dev = "vendor";
